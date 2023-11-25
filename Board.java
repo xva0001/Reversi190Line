@@ -109,14 +109,14 @@ public class Board {
         }
         return false;
     }
-    private int[] countChess(){ //dependent on arr_board , no static
+    private int[] countChess(){
         int[] counter = new int[3];
         for (int i = 0; i < playerboard.length; i++) {
             for (int j = 0; j < playerboard.length; j++) {
                 if (playerboard[i][j]==1) {
-                    counter[0] +=1;                 //count white chess //counter[0] is white//counter[1] is black
+                    counter[0] +=1;
                 }else if (playerboard[i][j]==2) {
-                    counter[1]+=1;                  //count black chess//counter[1] is black
+                    counter[1]+=1;
                 }                
             }
         }
