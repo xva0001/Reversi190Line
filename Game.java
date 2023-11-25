@@ -20,7 +20,7 @@ public class Game {
             player = (countLoop %2) + 1;
             if (mBoard.hasMove(player)==false) {
                 if (mBoard.isEndgame()==true) {break;}
-                player = (countLoop %2) + 1;
+                player = (player==1?2:1);
                 System.out.println("Player " + player +" cannot move, Player "+(player==1?2:1)+" turn");
             }
             int[] axis = mGame.stepChacker(iScanner, mBoard, player);
