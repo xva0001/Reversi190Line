@@ -48,9 +48,9 @@ public class Board {
         System.out.print("\n        ");
         for (int i = 0; i < playerboard.length; i++) {
             if (i-10<0) {
-                System.out.print(" "+ i +" "); //3 unit    
+                System.out.print(" "+ i +" ");
                 } else {
-                    System.out.print(""+ i +" "); //3 unit(2 octect) i is 2 octect
+                    System.out.print(""+ i +" ");
                 }
         }
         System.out.print("\n");
