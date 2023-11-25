@@ -51,4 +51,4 @@ public class Game {
     }while (true);
         return axis;
     }
-}    
+}
