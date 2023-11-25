@@ -83,8 +83,6 @@ public class Board {
         }
     }
     public boolean isValid(int x, int y, int color) {
-        if (playerboard[x][y] != 0)
-            return false;
         for (int i = 0; i < 8; i++) {
             int nx = x + dx[i];
             int ny = y + dy[i];
