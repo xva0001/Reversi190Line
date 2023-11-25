@@ -1,0 +1,1 @@
+# Reversi190Line
