@@ -15,7 +15,7 @@ public class Game {
         Board mBoard = new Board(size);
         mBoard.print();
         int player;
-        int countLoop = 0 ;
+        int countLoop = 1 ;
         while (mBoard.isEndgame()==false) {
             player = (countLoop %2) + 1;
             if (mBoard.hasMove(player)==false) {
